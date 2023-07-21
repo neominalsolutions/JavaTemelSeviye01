@@ -1,6 +1,7 @@
 package Program;
 
 import DenemeLib3.User;
+import Models.Person;
 
 public class Main {
 
@@ -14,6 +15,10 @@ public class Main {
 		DenemeLib2.User usr1 = new DenemeLib2.User();
 		usr1.setName("can");
 		System.out.println(usr1.getName());
+		
+		Person p = new Person();
+		p.setName("Tansu");
+		System.out.println(p.getName());
 	}
 
 }
