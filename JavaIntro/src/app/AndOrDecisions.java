@@ -50,10 +50,5 @@ public class AndOrDecisions {
 			
 			 System.out.println("ortalama :"  + ortalama);
 		}
-		
-		
-
 	}
-	
-  
 }
